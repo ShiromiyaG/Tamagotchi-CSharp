@@ -25,7 +25,7 @@ namespace Tamagotchi
         }
         public override string ToString()
         {
-            return "\n" + nome + " esta com:\n" + idade + " dias de idade\nPesando " + quilos + "Kg\n";
+            return "\n---------------------------\n" + nome + " esta com:\n" + idade + " dias de idade\nPesando " + quilos + "Kg\n---------------------------\n";
         }
     }
 }
